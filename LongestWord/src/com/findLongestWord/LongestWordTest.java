@@ -30,7 +30,6 @@ class LongestWordTest extends TestCase {
 	 * longest word jumped with length of 6 Expected out should have a words object
 	 * with an array list with things and mostly in it and length of 6
 	 */
-	
 	@Test
 	public void testWithMultipleValues() {
 		Words words = new Words();
