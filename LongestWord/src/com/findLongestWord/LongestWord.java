@@ -8,7 +8,7 @@ public class LongestWord {
 		// Trimming the string if it has space values and handling the only space
 		// strings
 		this.input = findLongestString.trim();
-
+		
 		if (!input.equals(null) && !input.isEmpty()) {
 			Words words = new Words();
 			// Splitting the string with space value to get words into a string array
